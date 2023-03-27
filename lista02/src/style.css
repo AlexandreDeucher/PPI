@@ -1,0 +1,77 @@
+.spanzada{
+    padding: 50px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 50%;
+    box-shadow: 0px 0px 21px -3px rgb(73, 2, 63);
+}
+.div1>span:first-child:hover{
+    background-color: red;
+}
+.div2>span:last-child:hover{
+    background-color: green;
+}
+.div3>span:nth-child(2):hover{
+    background-color: blue;
+}
+.div4>span:nth-child(5):hover{
+    background-color: pink;
+}
+.div5>span:nth-child(odd):hover{
+    background-color: yellow;
+}
+.div6>span:nth-child(even):hover{
+    background-color: orange;
+}
+.div7>span:nth-child(4):hover{
+    background-color: palevioletred;
+}
+.div8>span:nth-child(3n+2):hover{
+    background-color: rgb(96, 21, 21);
+}
+.div9>span:nth-child(3n+1):hover{
+    background-color: gray;
+}
+.div10>span:nth-child(1n+4):hover{
+    background-color: purple;
+}
+
+.head{
+    margin-left: 0;
+    padding-left: 0;
+}
+ol{
+    list-style: none;
+    padding-left: 0;
+}
+p.title{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em;
+    font-size: 30px;
+    text-shadow: 2px 2px 2px #7a0aea;
+}
+.divD:hover{
+    transform: rotate(45deg);
+}
+.divE:hover{
+    width: 100px;
+    height: 100px;
+   transition-timing-function: ease-in-out;
+    background: red;
+    transition: 2s;
+   
+}
+.divF{
+    text-shadow: 1px 1px 2px black;
+}
+.divG{
+    box-shadow: 2px 2px 5px gray;
+    cursor: pointer;
+}
+
+
+
