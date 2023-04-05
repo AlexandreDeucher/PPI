@@ -1,0 +1,36 @@
+
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+		body {
+			background-color: #f2f2f2;
+		}
+
+		.calculadora {
+			width: 300px;
+			height: 400px;
+			background-color: #fff;
+			margin: auto;
+			border-radius: 10px;
+		}
+
+		.display {
+			width: 100%;
+			height: 50px;
+			background-color: #ccc;
+		}
+
+		.teclado {
+			width: 100%;
+			height: 350px;
+			background-color: #ccc;
+			display: flex;
+			flex-wrap: wrap;
+		}
+
+		.tecla {
+			width: 25%;
+			height: 75px;
+		}
