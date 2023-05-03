@@ -1,10 +1,14 @@
 let add = document.getElementById('add');
 let button = document.getElementById('button');
-let list = document.getElementById('list');
+let celsius = document.getElementById('celsius');
 
 
-function salvar() {
+function scalcCelsius() {
     let newItem = document.createElement('li');
     newItem.innerText = add.value;
-    list.appendChild(newItem);
+    celsius.appendChild(newItem);
+}
+
+function calcFahrenheit(){
+    
 }
