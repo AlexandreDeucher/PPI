@@ -7,40 +7,29 @@
     <title>Cadastro</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
     <body>
-
-        <div class="page">
-          <form action="CadDB.php" class="formCad" method="post">
+        <div class="fundo">
+          <form action="cadastroBD.php" class="formulario" method="post">
             <h1>Cadastro</h1>
-            <p>Digite os seus dados para se CADASTRAR.</p>
+            <p>Insira seus dados para fazer o seu Cadastro</p>
             <label for="nome">Nome</label>
             <input type="text" placeholder="Digite seu Nome" autofocus="true" name="nome" class="text" />
             <label for="email">E-mail</label>
             <input type="email" placeholder="Digite seu e-mail" autofocus="true" name="email" class="text" />
             <label for="senhasLogin">Senha</label>
             <input type="senhasLogin" placeholder="Digite sua senha" name="senhasLogin" class="text" />
-            <input type="submit" value="Confirmar" class="btn" />
+            <input type="submit" value="Confirmar" class="botoes" />
           </form>
         </div>
-    
         <script>
-
             function limpaDados(){
-
               let nome = querySelector('#nome')
               let gmail = querySelector('#gmail')
               let senha = querySelector('#senha')
-
-
               nome.innerHTML = ''
               gmail.innerHTML = ''
               senha.innerHTML = ''
-
             }
-
-
         </script>
-
 </body>
 </html>

@@ -1,69 +1,71 @@
 body {
+    margin: 0px;
+    padding: 0px;
+    color: black;
     font-family: 'Inter', sans-serif;
-    margin: 0;
-    padding: 0;
-    color: black
 }
-.page {
+.fundo {
     display: flex;
-    flex-direction: column;
+    background-color: rgba(255, 196, 0, 0.925);
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     height: 100vh;
-    background-image: linear-gradient(to right, #f3bc07,#ff9900, #fac533);
 }
-.formCad{
+.formulario{
     display: flex;
     flex-direction: column;
-    background-color: #fff;
-    border-radius: 10px;
-    padding: 40px;
-    box-shadow: 10px 10px 50px rgba(253, 250, 43, 0.553)
+    background-color: rgba(255, 255, 254, 0.315);
+    box-shadow: 10px 10px 50px rgba(255, 30, 0, 0.553);
+    border-radius: 100px;
+    padding: 100px;
 }
-.formCad  input {
-    padding: 15px;
+.formulario input {
+    padding: 20px;
     font-size: 14px;
-    border: 1px solid #ccc;
     margin-bottom: 20px;
+    border: 1px solid rgb(255, 255, 255);
     margin-top: 5px;
     border-radius: 5px;
 }
-.formLogin{
+.formulario2Login{
     display: flex;
+    background-color: rgba(255, 255, 254, 0.315);
+    border-radius: 100px;
     flex-direction: column;
-    background-color: #fff;
-    border-radius: 10px;
-    padding: 40px;
-    box-shadow: 10px 10px 50px rgba(255, 136, 0, 0.553)
+    box-shadow: 10px 10px 50px rgba(255, 0, 0, 0.553);
+    padding: 100px
 }
-.formLogin  input {
+.formulario2Login  input {
     padding: 15px;
     font-size: 14px;
-    border: 1px solid #ccc;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     margin-top: 5px;
+    border: 1px solid #ccc;
     border-radius: 5px;
 }
 .text {
     background: transparent;
 }
 a{
-    font-size: 14px;
-    color: black;
+    font-size: 24px;
     padding: 10px;
+    color: black;
     margin: 10px;
+    background-color: rgba(255, 255, 254, 0.315);
+    border: 1px solid rgba(12, 11, 8, 0.315);
     text-decoration: none;
     color: white;
     font-weight: bold;
 }
-.btn{
-    background-color: #C115E6;
-    color: white;
+.botoes{
     font-size: 14px;
+    background-color: rgba(39, 39, 39, 0.438);
     border-radius: 5px;
     cursor: pointer;
+    color: white;
 }
-.btn:hover{
-    background-color: #661279;
+.botoes:hover{
     color: white;   
+    background-color: #b62621c5;
 }

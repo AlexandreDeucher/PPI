@@ -39,8 +39,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $email = $user['login'];
             $senha = $user['senha'];
                 echo " 
-                <div class='page'>
-                <form class='formCad' action='alterar.php' method='POST'>
+                <div class='fundo'>
+                <form class='formulario' action='alterar.php' method='POST'>
                 <h1>Alterando Cadastro</h1>
                 <p>Informe seus respectivos dados</p>
 
@@ -52,7 +52,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         <input type='email' placeholder='Informe o seu Email' autofocus='true' name='email' class='text' value='$email'><br>
                         <label for='senhasLogin'>Senha</label>
                         <input type='senhasLogin' placeholder='Informe sua senha' name='senhasLogin' class='text' value='$senha'><br> 
-                        <input type='submit' value='Confirmar' class='btn' formtarget='_blank' />
+                        <input type='submit' value='Confirmar' class='botoes' formtarget='_blank' />
 
                     </form>
                     </div>";

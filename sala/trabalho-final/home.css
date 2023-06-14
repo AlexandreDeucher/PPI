@@ -1,12 +1,12 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: rgba(160, 28, 160, 0.6);
+    background-color: rgba(255, 187, 1, 0.925);
     font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
 }
 
 header{
-    background-image: linear-gradient(to bottom,rgb(208, 15, 208) ,rgb(136, 9, 136));
+    background-color: rgba(221, 111, 8, 0.884);
     padding: 10px;
     box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.205);
     color: white;
@@ -16,7 +16,7 @@ nav{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: rgb(136, 9, 136);
+  background-color: rgb(236, 214, 12);
   
   padding: 10px;
 }
@@ -40,7 +40,7 @@ div > a{
 }
 
 div > a:hover{
-    background-color: rgb(208, 15, 208);
+    background-color: rgb(255, 154, 1);
     box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.205);
     border-radius: 5px;
 }

@@ -9,7 +9,7 @@
 
     <style>
 
-      #btn{
+      #botoes{
         position: absolute;
         top: 0;
         left: 0;
@@ -23,7 +23,7 @@
         cursor: pointer;
       }
 
-      #btn:hover{
+      #botoes:hover{
         background-color: #fff;
         color: #000;
         transition: 0.5s;
@@ -35,11 +35,11 @@
 
     <body>
   
-        <div class="page">
+        <div class="fundo">
 
-          <input type="submit" value="Voltar" id="btn" onclick="voltar()"/>
+          <input type="submit" value="Voltar" id="botoes" onclick="voltar()"/>
           
-          <form action="CadDB.php" class="formCad" method="post">
+          <form action="cadastroBD.php" class="formulario" method="post">
             
             <h1>Cadastro</h1>
             <p>Digite os seus dados para se CADASTRAR.</p>
@@ -52,7 +52,7 @@
             
             <input type="hidden" name="isBoolean" value="1">
 
-            <input type="submit" value="Confirmar" class="btn" />
+            <input type="submit" value="Confirmar" class="botoes" />
           </form>
         </div>
     
